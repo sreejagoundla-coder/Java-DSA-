@@ -20,7 +20,7 @@ while(left<=right){
     int mid=left+(right-left)/2;
     int hours=0;
     for(int i=0;i<piles.length;i++){
-         hours += (piles[i] + mid - 1) / mid;
+         hours += Math.ceil((double)piles[i]/mid);
 
     }
     if(hours<=h){

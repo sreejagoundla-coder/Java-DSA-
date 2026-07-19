@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.*;           // Lc 1011. Capacity To Ship Packages Within D Days
 public class ShipCapacity{
 public static int max(int[] arr) {
         int max = arr[0];
@@ -22,7 +22,7 @@ int left=max(weights);
 int right=sum(weights);
 int ans=Integer.MAX_VALUE;
 while(left<=right){
-    int mid=(left+right)/2;
+    int mid=left+(right-left)/2;
     int Load=0;
     int Days=1;
     int D=5;

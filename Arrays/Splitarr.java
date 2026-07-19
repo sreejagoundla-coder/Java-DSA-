@@ -1,5 +1,5 @@
 import java.util.*;
-public class Splitarr{
+public class Splitarr{     // Lc 410. Split Array Largest Sum
     public boolean isPossible(int[] nums, int k, int mid){
         int count=1;
         int sum=0;

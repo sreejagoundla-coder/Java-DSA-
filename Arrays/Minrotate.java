@@ -1,4 +1,4 @@
-public class Minrotate {
+public class Minrotate {          // Lc 153. Find Minimum in Rotated Sorted Array
         public static void main(String[] args) {
         int[] arr = {4,5,6,7,1,2};
         int ans = Integer.MAX_VALUE;
