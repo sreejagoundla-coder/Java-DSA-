@@ -2,24 +2,24 @@ import java.util.*;
 public class FindMin2 {     // Lc 154. Find Minimum in Rotated Sorted Array II
 
     public static void main(String[] args) {
-        int[] arr = {1,1,1,0,1};
-        System.out.println(MinSorted(arr));
+        int[] nums = {1,1,1,0,1};
+        System.out.println(MinSorted(nums));
     }
 
-    public static int MinSorted(int[] arr) {
+    public static int MinSorted(int[] nums) {
         int left = 0;
-        int right = arr.length - 1;
+        int right = nums.length - 1;
         while (left < right) {
             int mid = left + (right - left) / 2;
-            if(arr[mid]==arr[left] && arr[mid]==arr[right]){
+            if(nums[mid]==nums[left] && nums[mid]==nums[right]){
                 left++;
                 right--;
-            } else if(arr[mid]>arr[right]){
+            } else if(nums[mid]>nums[right]){
                 left=mid+1;
             } else {
                 right=mid;
             }
         }
-        return arr[left];
+        return nums[left];
     }
 }
