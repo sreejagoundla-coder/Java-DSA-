@@ -1,3 +1,4 @@
+package BinarySearch;
 import java.util.*;
 public class Ballbasket {
     public static int min(int[] arr) {

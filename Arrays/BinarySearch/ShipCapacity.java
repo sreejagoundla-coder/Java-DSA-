@@ -1,3 +1,4 @@
+package BinarySearch;
 import java.util.*;
 public class ShipCapacity{
 public static int max(int[] arr) {

@@ -1,3 +1,4 @@
+package BinarySearch;
 public class Richestcust {
     public static void main(String[] args) {
  int[][] accounts = {{1, 2, 3}, {3, 5, 1}};

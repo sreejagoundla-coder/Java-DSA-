@@ -1,3 +1,4 @@
+package BinarySearch;
 import java.util.*;
 public class SearchMatrix {     //Lc 74. Search a 2D Matrix
 public static boolean searchMatrix(int[][] matrix, int target) {

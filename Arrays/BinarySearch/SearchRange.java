@@ -1,3 +1,4 @@
+package BinarySearch;
 import java.util.*;
 public class SearchRange {   //Lc 34
 public int firstOccurence(int[] nums, int target) {

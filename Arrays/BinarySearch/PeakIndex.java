@@ -1,3 +1,4 @@
+package BinarySearch;
 import java.util.*;
 public class PeakIndex{      // Lc 852. Peak Index in a Mountain Array
     public static void main(String[] args) {

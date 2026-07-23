@@ -1,3 +1,4 @@
+package BinarySearch;
 public class Book {
    public static int max(int[] nums){
         int max=Integer.MIN_VALUE;

@@ -1,3 +1,4 @@
+package BinarySearch;
 import java.util.*;
 public class Koko{       //LC 875
     public static int max(int[] arr) {

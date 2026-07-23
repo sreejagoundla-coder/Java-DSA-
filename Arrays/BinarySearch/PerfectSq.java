@@ -1,3 +1,4 @@
+package BinarySearch;
 class PerfectSq{
     public static boolean PerfectSq(int num){
         if(num==0){

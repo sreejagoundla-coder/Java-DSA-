@@ -1,3 +1,4 @@
+package BinarySearch;
 import java.util.*;
 public class FindMin {     // Lc 153. Find Minimum in Rotated Sorted Array
     public static void main(String[] args) {

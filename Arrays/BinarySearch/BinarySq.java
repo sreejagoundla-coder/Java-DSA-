@@ -1,3 +1,4 @@
+package BinarySearch;
 class BinarySq{
     public static int BinarySq(int x) {
         if (x == 0){ 

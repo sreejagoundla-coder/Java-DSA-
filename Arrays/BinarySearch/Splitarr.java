@@ -1,3 +1,4 @@
+package BinarySearch;
 import java.util.*;
 public class Splitarr{
     public boolean isPossible(int[] nums, int k, int mid){
